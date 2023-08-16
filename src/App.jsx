@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-import Card from '../components/Card';
+import Card from './components/Card';
+import LoaderPage from './components/Loader';
+
 import {
   Cloud,
   Droplet,
@@ -17,9 +19,8 @@ import {
   ThermometerSun,
   View,
   Wind,
-  ChevronLeft,
 } from 'lucide-react';
-import LoaderPage from '../components/Loader';
+
 const App = () => {
   const [weatherData, setWeatherData] = useState({});
   const [loading, setLoading] = useState(true);
