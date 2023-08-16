@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid #d8d8d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 8px;
+}
+.icon {
+  padding: 1rem;
+  background-color: #fff5e6;
+  color: #ff9900;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  flex-grow: 2;
+}
+.text h2 {
+  font-size: 1.5rem;
+  color: rgb(34, 34, 34);
+}
+.text h5 {
+  color: #666666;
+  font-weight: 500;
+}
